@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="4dp"
+    android:padding="5dp"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/article_adapter_ll_parent"
+        android:background="@drawable/card"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/article_adapter_tv_image"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/article_adapter_tv_title"
+            android:textSize="18sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/title">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/article_adapter_tv_description"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000" >
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/article_adapter_tv_date"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="21.09.2022"
+            android:textSize="12sp"
+            android:textColor="@color/date">
+        </TextView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+</androidx.cardview.widget.CardView>

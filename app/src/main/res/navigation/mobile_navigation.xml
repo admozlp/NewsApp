@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.ademozalp.newsappjava.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_sport"
+        android:name="com.ademozalp.newsappjava.ui.sport.SportFragment"
+        android:label="@string/menu_sport"
+        tools:layout="@layout/fragment_sport" />
+
+    <fragment
+        android:id="@+id/nav_science"
+        android:name="com.ademozalp.newsappjava.ui.science.ScienceFragment"
+        android:label="@string/menu_science"
+        tools:layout="@layout/fragment_science" />
+
+    <fragment
+        android:id="@+id/nav_business"
+        android:name="com.ademozalp.newsappjava.ui.business.BusinessFragment"
+        android:label="@string/menu_business"
+        tools:layout="@layout/fragment_business"/>
+
+    <fragment
+        android:id="@+id/nav_world"
+        android:name="com.ademozalp.newsappjava.ui.technology.TechnologyFragment"
+        android:label="@string/menu_world"
+        tools:layout="@layout/fragment_technology"/>
+
+    <fragment
+        android:id="@+id/nav_fashion"
+        android:name="com.ademozalp.newsappjava.ui.politics.PoliticsFragment"
+        android:label="@string/menu_fashion"
+        tools:layout="@layout/fragment_politics"/>
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.ademozalp.newsappjava.ui.settings.SettingsFragment"
+        android:label="@string/nav_settings"
+        tools:layout="@layout/fragment_settings"/>
+
+
+
+</navigation>
